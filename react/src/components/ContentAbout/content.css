@@ -1,0 +1,181 @@
+.contentAbout{
+  padding: 150px 125px;
+  padding-top: 600px;
+
+}
+
+.aboutMeTop {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+p {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #797c86;
+}
+
+h2 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 58px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.know-btn{
+  border-radius: 10px;
+  padding: 16px 24px;
+  width: 163px;
+  height: 59px;
+  background: #1c1c21;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #fff;
+  gap: 10px;
+}
+
+.nav-item {
+  padding: 30px 40px;
+  border-right: 1px solid #1c1c21;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+h3 {
+  display: flex;
+  justify-content: center start;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 30px;
+  color: #cacace;
+  gap: 6px;
+  margin-bottom: 30px;
+}
+
+.textAboutMe {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #afb0b6;
+  text-transform: none;
+  margin-bottom: 20px;
+}
+
+.filling{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #1c1c21;
+  border-radius: 20px;
+  width: 783px;
+  /*height: 612px;*/
+  
+
+
+}
+
+.introduction{
+    margin: 40px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #1c1c21;
+    
+}
+
+.introductionHeading{
+  gap: 6px;
+}
+
+.aboutMeBottom{
+  display: flex;
+  gap:30px;
+}
+
+.mail, .phone{
+    display: flex;
+    flex-direction: column;
+    width: 277px;
+    gap: 5px;
+}
+
+.inform{
+  display: flex;
+  gap: 20px;
+}
+
+h4{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #e4e4e6;
+}
+
+.infoCont{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #afb0b6;
+}
+
+.contact{
+    margin: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    gap: 30px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #1c1c21;
+    border-radius: 100px;
+    padding: 8px;
+    width: 156px;
+    height: 56px;
+    background: #070708;
+}
+
+.littleBtn{
+    border-radius: 100px;
+    padding: 12px;
+    width: 40px;
+    height: 40px;
+    background: #1c1c21;
+}
+
+.btn-info{
+  display: flex;
+  margin: 40px;
+  margin-top: 20px;
+}
+
+.letWork, .download{
+  border-radius: 8px;
+  padding: 14px 24px;
+  width: 174px;
+  height: 49px;
+  background: #1c1c21;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #fff;
+}
+
+.doWork{
+  display: flex;
+  gap: 16px;
+}
+
+.btn-about-section{
+  display: flex;
+  gap: 50px;
+}

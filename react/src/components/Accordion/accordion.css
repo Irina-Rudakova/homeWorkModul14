@@ -1,0 +1,40 @@
+h4{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #afb0b6;
+}
+
+p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #797c86;
+    text-transform: none;
+}
+
+
+.accordStyle{
+    display: flex;
+    justify-content:space-between;
+    padding: 24px 40px;
+    gap: 30px;
+    border: 1px solid #1c1c21;
+}
+
+.btn-click{
+    border: 1px solid #1c1c21;
+    border-radius: 100px;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    background: #1c1c21;
+    visibility: visible;
+}
+
+.btn-click:hover{
+    background: #797c86;
+}
+

@@ -1,0 +1,22 @@
+.mobile-menu{
+    position: absolute;
+    top: 120px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+}
+
+.mobile-menu__nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 40px;
+    background: #131316;
+    border-right: 1px solid #1c1c21;
+    color: #fff;
+    transition: background-color .3s ease;
+}
+
+.mobile-nav-item{
+    color: black;
+}

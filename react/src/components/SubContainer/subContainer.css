@@ -1,0 +1,57 @@
+.text-subCont{
+    overflow-x: hidden;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #d6d0fb;
+    background-color: #1C1C21;
+    max-width: 100%;
+    height: 80px;
+}
+
+.text-stroke{
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-x: visible;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.textText{
+    margin: 20px 0;
+    white-space: nowrap;
+    animation: marquee1 20s infinite linear;
+    animation-delay: -20s;
+}
+
+/*@keyframes marquee1 {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes marquee2 {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-200%);
+    }
+}*/
+
+@keyframes marquee1 {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100% - 20px));
+    }
+  }
+  
+

@@ -1,0 +1,46 @@
+.nav{
+    display: flex;
+    border: 1px solid #1c1c21;
+    border-radius: 12px 12px 0 0;
+    height: 78px;
+}
+
+.nav-item{
+    padding: 30px 40px;
+    border-right: 1px solid #1c1c21;
+    color: #fff;
+    transition: background-color .3s ease;
+}
+
+.nav-item:last-child{
+    border: none;
+}
+
+.nav-item.active{
+    background: #131316;
+}
+
+.burger{
+    display: none;
+    background-color: transparent;
+}
+
+.btn-burger{
+    flex-direction: right;
+}
+
+@media (max-width: 1000px){
+    .nav, .header-btn{
+        display: none;
+    }
+    .burger{
+        display: flex;
+        justify-content: end;
+    }
+}
+
+@media (max-width: 1000px){
+    .burger{
+        width: 100%;
+    }
+}

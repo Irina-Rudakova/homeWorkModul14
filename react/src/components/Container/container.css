@@ -1,0 +1,32 @@
+.text-cont{
+    font-size: 22px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.heading-cont{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 80px;
+    text-transform: uppercase;
+    color: #e4e4e6;
+}
+
+.text-cont-btn{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 58px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.btn-cont{
+    border-radius: 100px;
+    padding: 18px 50px;
+    width: 130px;
+    height: 66px;
+    box-shadow: inset 4px 4px 17px 0 rgba(255, 255, 255, 0.28);
+    background: #4a2ced;
+    margin-left: 10px;
+}
+

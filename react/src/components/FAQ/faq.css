@@ -1,0 +1,19 @@
+.accordContainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+       
+}
+
+.questions{ 
+    display: block;  
+    padding: 150px 125px;
+}
+
+.questions-top{
+    border-bottom: 1px solid #1c1c21;
+    padding: 0px 0px 40px 0px;
+}
+
+
+
+ 

@@ -1,0 +1,12 @@
+.photo{
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.topImage{
+    max-width: 1250px;
+    margin: 10px;
+    position: absolute;;
+}

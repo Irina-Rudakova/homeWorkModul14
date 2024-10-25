@@ -1,0 +1,128 @@
+.contentServ{
+    padding: 150px 125px;
+  }
+
+.headingServ{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 34px;
+    text-transform: uppercase;
+    color: #797c86;
+}
+
+.textServ{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #797c86;
+}
+
+.btn-icon{
+    border-radius: 100px;
+    padding: 16px 40px;
+    width: 104px;
+    height: 56px;
+    box-shadow: inset 4px 4px 17px 0 rgba(255, 255, 255, 0.28);
+    background: #4a2ced;
+}
+
+.servTop{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.btn-serv{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-group-serv{
+    display: flex;
+    border: 1px solid #1c1c21;
+    border-radius: 100px;
+    padding: 8px;
+    width: 124px;
+    height: 64px;
+    background: #070708;
+    gap: 12px;
+}
+
+.one-btn{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-radius: 100px;
+    padding: 10px;
+    width: 48px;
+    height: 48px;
+    background: #1c1c21;
+}
+
+.view-btn{
+    border-radius: 8px;
+    padding: 14px 20px;
+    width: 166px;
+    height: 49px;
+    background: #1c1c21;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: #fff;
+}
+
+.heading-btn{
+    display: flex;
+    gap: 10px;
+}
+
+.servMeBottom{
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+    gap: 20px;
+}
+
+.section-top-serv{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-bottom: 40px;
+}
+
+h4 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #cacace;
+    text-transform: none;
+    padding-bottom: 16px;
+}
+
+.text-stroke-serv{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #afb0b6;
+
+    border: 1px solid #1c1c21;
+    border-radius: 10px;
+    padding: 16px 18px;
+    width: 620px;
+    height: 62px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.group-srt-serv{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
